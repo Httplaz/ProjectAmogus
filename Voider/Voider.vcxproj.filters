@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\texture">
+      <UniqueIdentifier>{55d8378f-ce5d-4cea-845e-424596b9875d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\world">
+      <UniqueIdentifier>{412e4a1f-a4b8-4761-9f3a-501f5eed6261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\renderUtil">
+      <UniqueIdentifier>{8cb84410-e7c4-48b8-81a3-fd6524b95107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\world\generation">
+      <UniqueIdentifier>{ab238605-b051-4926-9b1a-2b85629e5242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Shapes">
+      <UniqueIdentifier>{5694de66-345d-4805-9fcf-1533b66ab5aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\engine">
+      <UniqueIdentifier>{4b438ddd-fb40-4eb0-9d0c-6589411c959c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\imgui">
+      <UniqueIdentifier>{ef314622-6f92-464c-ae5b-cea2e9e997a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\util">
+      <UniqueIdentifier>{f0d3e7e8-4519-4f59-b676-139d34f64e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\engine\weapon">
+      <UniqueIdentifier>{9d8eed35-99f3-4139-a250-9f5d02a4ee37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\engine\default">
+      <UniqueIdentifier>{4c919109-f12f-4c79-8133-48a60447f4d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\engine\effect">
+      <UniqueIdentifier>{5d5cb1de-511a-4aae-ae8a-fb8256c86d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\game">
+      <UniqueIdentifier>{0936e1c6-35f0-4dbb-a6a1-05a35b026e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\engine\scene">
+      <UniqueIdentifier>{7478aaa2-0fc5-4031-ad06-c96473840d9a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.hpp">
+      <Filter>Исходные файлы\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldParams.hpp">
+      <Filter>Исходные файлы\world</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_glfw.cpp">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_opengl3.cpp">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="System.hpp">
+      <Filter>Исходные файлы\engine\default</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultComponents.hpp">
+      <Filter>Исходные файлы\engine\default</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.hpp">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceRenderer.hpp">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureAtlas.hpp">
+      <Filter>Исходные файлы\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="World.hpp">
+      <Filter>Исходные файлы\world</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.hpp">
+      <Filter>Исходные файлы\world</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldView.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleMesh.hpp">
+      <Filter>Исходные файлы\renderUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>Исходные файлы\util</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldGenerator.hpp">
+      <Filter>Исходные файлы\world\generation</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets.hpp">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertexpool.hpp">
+      <Filter>Исходные файлы\renderUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_glfw.h">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_opengl3.h">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Исходные файлы\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="SVRandom.hpp">
+      <Filter>Исходные файлы\util</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultSystems.hpp">
+      <Filter>Исходные файлы\engine\default</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.hpp">
+      <Filter>Исходные файлы\engine\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapons.hpp">
+      <Filter>Исходные файлы\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.hpp">
+      <Filter>Исходные файлы\engine\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities.hpp">
+      <Filter>Исходные файлы\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default.frag">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="default.vert">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="defaultInstanced.frag">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="defaultInstanced.vert">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="worldView.vert">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="worldView.frag">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="imgui.ini">
+      <Filter>Исходные файлы\imgui</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="default.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
